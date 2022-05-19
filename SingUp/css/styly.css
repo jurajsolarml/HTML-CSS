@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/businessman-working.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display:flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Nav */
+nav {
+  font-size: 0.94em;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  justify-content: center;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.8rem;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.btn-contactus {
+  padding: 0.5em 1.5em;
+  background-color: #7874E5;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 3rem;
+  font-weight: 700; 
+}
+
+/* Main */
+ .header-text h1 {
+  font-family: "Signika", sans-serif;
+  padding-top: 5rem;
+  padding-right: 36rem;
+  color: #fff;
+  font-size: 3em;
+}
+
+.header-text p { 
+  padding-top: 0.1em;
+  margin-left: 5.1em;
+  color: #fff;
+}
+
+.btn-main {
+  width: 100%;
+  margin-top: 2rem;
+  padding-left: 5rem;
+}
+
+.btn-admission {
+  color: #fff;
+  background-color: #7874E5;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: 1px solid #7874E5;
+  border-radius: 1rem;
+  padding: 0.5em 0.8em;
+} 
+
+/* SignUp*/
+.signup-box {
+  width: 23rem;
+  height: 22rem;
+  margin: auto;
+  margin-top: 5rem;
+  top: 5rem;
+  left: 46.9em;
+  position: absolute;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.19em;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0.9em;
+  color: #000;
+  font-weight: 400;
+}
+
+form {
+  width: 18.8rem;
+  margin-left: 1.25em;
+
+}
+
+form input {
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 1rem;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 0.38em;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 18.8rem;
+  height: 2.19em;
+  margin-top: 1.25em;
+  border: none;
+  background-color: #7874E5;
+  color: white;
+  font-size: 1.1em;
+}
+
+.btn-box {
+  background-color: #7874E5;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.5em 0.8em;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+

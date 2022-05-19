@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.logo{
+  display:flex;
+  padding: 0.94em 0;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: -2rem;
+  border-bottom: 2px solid #191612;
+}
+
+.logo img{
+  width: 30%;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  word-spacing: 0;
+  font-size: 0.94em;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.8rem;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.nav-background h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 5em;
+  color: #fff;
+}
+
+.main{
+  width: 100%;
+  background: url("../img/coffee-bg-img.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* Section*/
+.coffeeshop {
+  background-image: url("../img/main-section.jpg"), linear-gradient(#fff, #fff);
+  background-size: cover;
+  max-height: 19em;
+  display: flex;
+}
+
+.coffeshop-text h2 {
+  padding-left: 9rem;
+  padding-top: 5rem;
+  font-size: 2em;
+}
+
+.coffeeshop img {
+  width: 22em;
+  margin-left: 30rem;
+  padding-top: 0.7em;
+}
+
+.coffeshop-text p {
+  padding-top: 1rem;
+  padding-left: 9rem;
+}

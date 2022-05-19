@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {   
+  background: url("../img/black-travel.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Header*/
+header {
+  background-color: #181A1B;
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+  opacity: 80%;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+/* Navigation*/
+.logo{
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #fff;
+}
+
+
+nav ul {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+nav ul li {
+  padding: 0.88em;
+}
+
+nav ul li a {
+  color: #fff;
+} 
+
+/* Main*/
+.header-text h1 {
+  font-family: "Signika", sans-serif;
+  padding-top: 3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+}
+
+.btn-main{
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.btn-discover {
+  color: #fff;
+  background-color: #3BCC69;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: 1px solid #3BCC69;
+  border-radius: 1rem;
+  padding: 0.5em 0.8em;
+}
+
+.info-text{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-text{
+  padding: 1rem;
+  margin-top: 13rem;
+  background-color: #333333;
+  color: #fff;
+}
+
+.section-text  p{
+  margin: 1.9em;
+}

@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url("../img/chicago-river.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Header */
+.logo{
+  width: 1262px;
+  height: 4rem;
+  display:flex;
+  padding: 1rem 1.5em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 10%;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+/* Social menu */
+.social-menu {
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+  .social-menu i {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-menu i {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 50%;
+    font-size: 1.1em;
+    margin-right: 4rem ;
+  }
+
+
+.fa-brands {
+	background:#3D568E;
+} 
+
+.fa-youtube {
+	background:#6F271C
+}
+
+.fa-twitter {
+	background:#8BBDE4
+}
+
+.fa-linkedin {
+	background:#00aced
+}
+
+/* Nav */
+nav {
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #343539;
+  padding-left: 2rem;
+} 
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+} 
+
+.nav-background h1{
+  font-family: "Signika", sans-serif;
+  padding-top: 9rem;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+}
+
+.nav-background p{
+  font-family: "Signika", sans-serif;
+  margin-top: -1.2em;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.btn-main{
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.btn-view-more {
+  color: #fff;
+  background-color: #E4834C;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: 1px solid #E4834C;
+  border-radius: 0.3em;
+  padding: 0.5em 0.8em;
+}
+
+.info-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text{
+  padding: 1rem;
+  margin-top: 6rem;
+  background-color: #fff;
+  color: #000;
+}
+
+.section-text p{
+  text-align: center;
+  margin: 1.9em;
+}
+
+.section-text h2{
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  margin: 1.8em;
+  margin-bottom: -1rem;
+}
+
+.section-text a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
+}
